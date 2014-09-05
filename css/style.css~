@@ -15,7 +15,6 @@ body {
 	line-height: 1.6em;
 	font-weight: 300;
 	text-shadow: none;
-	position: relative;
 }
 .intro-divider {
     width: 400px;
@@ -23,17 +22,9 @@ body {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.section-heading-spacer {
-	width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
 @media(max-width:767px) {
 	.intro-divider {
         width: 100%;
-    }
-    .navbar-brand{
-    	margin-left: 10px;
     }
 }
 
@@ -899,7 +890,7 @@ div.cform-response-output {
  ================= */
 
 section#footer {
-	background:#294D50;
+	background: #242424;
 	margin: 0;
 }
 
@@ -953,10 +944,6 @@ a.scrollup:hover{
 /*===========================
   --- Template Components ----
 =========================== */
-
-.social-network a.icoRss, .social-network a.icoFacebook, .social-network a.icoTwitter, .social-network a.icoGoogle, .social-network a.icoLinkedin{
-	background-color: #EF413D;
-}
 
 /* footer social icons */
 .social-network a.icoRss:hover {
